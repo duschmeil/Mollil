@@ -1,3 +1,23 @@
 body {
     background-color: black;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border: 2px solid rebeccapurple;
+}
+
+header img {
+    height: 150px;
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: #00bfff;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
