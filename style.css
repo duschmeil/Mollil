@@ -133,8 +133,8 @@ header button {
 
 .setinhabeneficiosdireita {
     right: 20px;
-    top: 100px;
-    transform: rotate(205deg);
+    top: 140px;
+    transform: rotate(300deg);
 }
 
 .setinhabeneficiosesquerda {
@@ -170,4 +170,37 @@ header button {
 .card p {
     font-family: "Sora";
     font-size: 18px;
+    color: white;
+}
+
+.comofunciona {
+    font-family: "Sora Bold";
+    position: relative;
+    color: white;
+    padding: 60px;
+    padding-top: 10px;
+    overflow: hidden;
+    border: 2px solid red;
+}
+
+.comofunciona h2 {
+    font-size: 60px;
+    border: 2px solid red;
+    margin-bottom: 0;
+}
+
+.card h4 {
+    color: #00bfff;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+
+
+.opcao1 h3 {
+    font-family: "Sora Bold";
+    font-size: 40px;
+    border: 2px solid red;
+    margin-top: 0;
+    margin-bottom: 0;
 }
