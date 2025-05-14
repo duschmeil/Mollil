@@ -75,3 +75,36 @@ header button {
     font-size: 20px;
     font-family: 'Sora Bold';
 }
+
+.quemsomos {
+    display: flex;
+    padding: 60px;
+    background-color: #000000;
+    color: white;
+    border: 2px solid red;
+    position: relative;
+}
+
+.quemsomos img {
+    border: 2px solid red;
+    z-index: 1;
+    object-fit: cover;
+    padding-top: 120px;
+}
+
+.quemsomos h2 {
+    font-family: 'Sora Bold';
+    font-size: 60px;
+    position: absolute;
+    z-index: 10;
+    top: 40px;
+    z-index: 10;
+}
+
+.quemsomos p {
+    padding-left: 90px;
+    padding-top: 200px;
+    font-family: 'Sora';
+    padding-right: 40px;
+    font-size: 22px;
+}
