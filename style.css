@@ -211,11 +211,88 @@ header button {
     font-family: "Sora Bold";
     font-size: 40px;
     border: 2px solid red;
+    text-align: left;
     margin-top: 0;
     margin-bottom: 0;
+
 }
 
 .opcao2 svg {
     fill: #00bfff;
     width: 30px;
+}
+
+.destaque {
+    color: #00bfff;
+}
+
+.opcao2 {
+  text-align: center;
+}
+
+
+.opcao2 h4 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.opcao2 p {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.cardhorizontal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+.cardhorizontal1 svg {
+  width: 32px;
+  height: 32px;
+  fill: #00BFFF; 
+  flex-shrink: 0;
+  position: absolute;
+  left: 340px;
+  bottom: 180px;
+}
+
+.cardhorizontal2 svg {
+  width: 32px;
+  height: 32px;
+  fill: #00BFFF; 
+  flex-shrink: 0;
+  position: absolute;
+  left: 260px;
+  bottom: 130px;
+}
+
+.cardhorizontal3 svg {
+  width: 32px;
+  height: 32px;
+  fill: #00BFFF; 
+  flex-shrink: 0;
+  position: absolute;
+  left: 310px;
+  bottom: 80px ;
+}
+
+.cardhorizontal1 p {
+    margin-top: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+.cardhorizontal2 p {
+  font-size: 24px;
+  text-align: center;
+}
+.cardhorizontal3 p {
+  font-size: 24px;
+  text-align: center;
 }
