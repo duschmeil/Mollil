@@ -311,12 +311,35 @@ footer {
   color: #00BFFF;
 }
 
+.footer2 a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0px;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.footer2 p {
+    margin: 0px;
+    padding: 5px;
+}
+
+.footer2 a:hover {
+  color: #00BFFF;
+}
+
 footer img {
     width: 100px;
 }
 
 .footer2 {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .barrinhafooter {
@@ -325,3 +348,4 @@ footer img {
     min-height: 90px;
     left: 215px;
 }
+
