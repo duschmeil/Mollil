@@ -169,8 +169,12 @@ header button {
 
 .card p {
     font-family: "Sora";
-    font-size: 18px;
+    font-size: 22px;
     color: white;
+}
+
+.card h3 {
+    font-size: 24px;
 }
 
 .comofunciona {
@@ -195,12 +199,23 @@ header button {
     margin-bottom: 8px;
 }
 
-
-
 .opcao1 h3 {
     font-family: "Sora Bold";
     font-size: 40px;
     border: 2px solid red;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.opcao2 h3 {
+    font-family: "Sora Bold";
+    font-size: 40px;
+    border: 2px solid red;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.opcao2 svg {
+    fill: #00bfff;
+    width: 30px;
 }
