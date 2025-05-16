@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Sora';
+    src: url(fonts/sora/Sora-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Sora Bold';
+    src: url(fonts/sora/static/Sora-Bold.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+.faleConosco {
+  display: flex;
+  flex-direction: column;         
+  align-items: center;            
+  justify-content: center;
+  padding: 80px 20px;
+  position: relative;
+  text-align: center;
+}
+
+.faleConosco h1 {
+    color: white;
+    position: absolute;
+}
+
+.tallyFaleConosco {
+    align-self: center;
+    overflow: visible;
+    transform: scale(1.4);
+    transform-origin: top-center;
+    width: 500px;   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+header img {
+    height: 150px;
+}
+
+.setinhaFaleConosco1 {
+    position: absolute;
+    width: 120px;
+    left: 50px;
+    bottom: 80px;
+}
+
+.setinhaFaleConosco2 {
+    position: absolute;
+    width: 100px;
+    left: 50px;
+    bottom: 250px;
+    rotate: 300deg;
+}
+    
+.nozinhoFaleConosco {
+    position: absolute;
+    top: 0%;
+    right: 10px;
+}
+
+footer {
+    font-family: "Sora";
+    background-color: #1c2e4a;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer1 a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.footer1 a:hover {
+  color: #00BFFF;
+}
+
+.footer2 a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0px;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.footer2 p {
+    margin: 0px;
+    padding: 5px;
+}
+
+.footer2 a:hover {
+  color: #00BFFF;
+}
+
+footer img {
+    width: 100px;
+}
+
+.footer2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.barrinhafooter {
+    position: absolute;
+    border-left: 2px solid rgb(206, 206, 206);
+    min-height: 90px;
+    left: 215px;
+}
