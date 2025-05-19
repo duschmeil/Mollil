@@ -320,3 +320,117 @@ footer img {
     left: 215px;
 }
 
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+
+  header img {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+
+  header button {
+    width: 100%;
+    max-width: 200px;
+    font-size: 18px;
+  }
+
+  .primeira {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .primeira-texto p {
+    padding: 0;
+  }
+
+  .primeira-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .quemsomos {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .quemsomos p {
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .quemsomos img {
+    padding: 0;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 60px;
+  }
+
+  .quemsomos h2 {
+    position: static;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+
+  .beneficios {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .beneficios h2 {
+    font-size: 40px;
+  }
+
+  .setinhabeneficiosesquerda,
+  .setinhabeneficiosdireita {
+    display: none;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card img {
+    width: 100px;
+  }
+
+  .comofunciona {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .comofunciona h2 {
+    font-size: 40px;
+  }
+
+  .cardhorizontal {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cardhorizontal svg {
+    margin-bottom: 12px;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .barrinhafooter {
+    display: none;
+  }
+
+  .footer0 img {
+    width: 80px;
+  }
+}
