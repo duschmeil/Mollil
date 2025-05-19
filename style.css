@@ -237,56 +237,27 @@ header button {
 
 .cardhorizontal {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  margin: 20px auto;
-  max-width: 700px;
-}
-
-.cardhorizontal1 svg {
-  width: 32px;
-  height: 32px;
-  fill: #00BFFF; 
-  flex-shrink: 0;
-  position: absolute;
-  left: 340px;
-  bottom: 180px;
-}
-
-.cardhorizontal2 svg {
-  width: 32px;
-  height: 32px;
-  fill: #00BFFF; 
-  flex-shrink: 0;
-  position: absolute;
-  left: 260px;
-  bottom: 130px;
-}
-
-.cardhorizontal3 svg {
-  width: 32px;
-  height: 32px;
-  fill: #00BFFF; 
-  flex-shrink: 0;
-  position: absolute;
-  left: 310px;
-  bottom: 80px ;
-}
-
-.cardhorizontal1 p {
-    margin-top: 10px;
-  font-size: 24px;
+  align-items: center;         /* centraliza verticalmente */
+  justify-content: center;     /* centraliza horizontalmente */
+  gap: 16px;                   /* espaço entre ícone e texto */
+  margin: 24px auto;
+  color: white;
   text-align: center;
+  flex-wrap: wrap;             /* quebra se faltar espaço */
 }
-.cardhorizontal2 p {
+
+.cardhorizontal svg {
+  width: 40px;
+  height: 40px;
+  fill: #00BFFF;
+  flex-shrink: 0;
+}
+
+.cardhorizontal p {
   font-size: 24px;
-  text-align: center;
-}
-.cardhorizontal3 p {
-  font-size: 24px;
-  text-align: center;
-}
+  line-height: 1.4;
+  margin: 0;
+} 
 
 footer {
     font-family: "Sora";
