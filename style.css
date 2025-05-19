@@ -237,13 +237,13 @@ header button {
 
 .cardhorizontal {
   display: flex;
-  align-items: center;         /* centraliza verticalmente */
-  justify-content: center;     /* centraliza horizontalmente */
-  gap: 16px;                   /* espaço entre ícone e texto */
+  align-items: center;      
+  justify-content: center;    
+  gap: 16px;                  
   margin: 24px auto;
   color: white;
   text-align: center;
-  flex-wrap: wrap;             /* quebra se faltar espaço */
+  flex-wrap: wrap;         
 }
 
 .cardhorizontal svg {
