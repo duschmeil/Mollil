@@ -15,6 +15,21 @@ body {
     background-color: black;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: -100px;
+    padding-bottom: 0px;
+}
+
+header img {
+    height: 150px;
+}
+
 .faleConosco {
   display: flex;
   flex-direction: column;         
@@ -26,8 +41,14 @@ body {
 }
 
 .faleConosco h1 {
+    font-family: "Sora Bold";
+    font-size: 60px;
     color: white;
-    position: absolute;
+    position: relative;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 140px;
+    z-index: 2;
 }
 
 .tallyFaleConosco {
@@ -36,19 +57,8 @@ body {
     transform: scale(1.4);
     transform-origin: top-center;
     width: 500px;   
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
-header img {
-    height: 150px;
+    margin-top: -60px;
+    z-index: 1;
 }
 
 .setinhaFaleConosco1 {
@@ -68,8 +78,10 @@ header img {
     
 .nozinhoFaleConosco {
     position: absolute;
+    width: 600px;
     top: 0%;
-    right: 10px;
+    right: 5px;
+    z-index: 1;
 }
 
 footer {
