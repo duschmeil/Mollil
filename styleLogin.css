@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Sora';
+    src: url(fonts/sora/Sora-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Sora Bold';
+    src: url(fonts/sora/static/Sora-Bold.ttf);
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Sora';
+    color: white;
+}
+
+.login-container {
+    background-color: #1c2e4a;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-container h1 {
+    font-family: 'Sora Bold';
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+}
+
+.login-container input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login-container button {
+    padding: 10px;
+    background-color: #00bfff;
+    color: white;
+    font-family: 'Sora Bold';
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
