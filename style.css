@@ -323,12 +323,13 @@ footer img {
 @media (max-width: 768px) {
   header {
     flex-direction: column;
-    padding: 20px;
+    padding: 10px 20px;
+    gap: 10px;
     height: auto;
   }
 
   header img {
-    height: 100px;
+    height: 80px;
     margin-bottom: 10px;
   }
 
@@ -345,8 +346,38 @@ footer img {
     gap: 40px;
   }
 
-  .primeira-texto p {
+  .primeira-texto h1,
+  .quemsomos h2,
+  .beneficios h2,
+  .comofunciona h2 {
+    font-size: 32px;
+  }
+
+  .opcao1 h3,
+  .opcao2 h3 {
+    font-size: 28px;
+  }
+
+  .opcao2 h4 {
+    font-size: 24px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .primeira-texto p,
+  .card p,
+  .opcao2 p,
+  .cardhorizontal p {
+    font-size: 16px;
     padding: 0;
+  }
+
+  .primeira-texto button {
+    width: 100%;
+    max-width: 250px;
+    font-size: 18px;
   }
 
   .primeira-img img {
@@ -397,8 +428,14 @@ footer img {
     align-items: center;
   }
 
+  .card {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+
   .card img {
-    width: 100px;
+    width: 140px;
   }
 
   .comofunciona {
@@ -412,6 +449,7 @@ footer img {
 
   .cardhorizontal {
     flex-direction: column;
+    gap: 12px;
     text-align: center;
   }
 
@@ -432,5 +470,13 @@ footer img {
 
   .footer0 img {
     width: 80px;
+  }
+
+  .footer1 a,
+  .footer2 a,
+  .footer2 p,
+  .footer3 p {
+    font-size: 14px;
+    margin: 5px 0;
   }
 }
