@@ -237,56 +237,27 @@ header button {
 
 .cardhorizontal {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  margin: 20px auto;
-  max-width: 700px;
-}
-
-.cardhorizontal1 svg {
-  width: 32px;
-  height: 32px;
-  fill: #00BFFF; 
-  flex-shrink: 0;
-  position: absolute;
-  left: 340px;
-  bottom: 180px;
-}
-
-.cardhorizontal2 svg {
-  width: 32px;
-  height: 32px;
-  fill: #00BFFF; 
-  flex-shrink: 0;
-  position: absolute;
-  left: 260px;
-  bottom: 130px;
-}
-
-.cardhorizontal3 svg {
-  width: 32px;
-  height: 32px;
-  fill: #00BFFF; 
-  flex-shrink: 0;
-  position: absolute;
-  left: 310px;
-  bottom: 80px ;
-}
-
-.cardhorizontal1 p {
-    margin-top: 10px;
-  font-size: 24px;
+  align-items: center;      
+  justify-content: center;    
+  gap: 16px;                  
+  margin: 24px auto;
+  color: white;
   text-align: center;
+  flex-wrap: wrap;         
 }
-.cardhorizontal2 p {
+
+.cardhorizontal svg {
+  width: 40px;
+  height: 40px;
+  fill: #00BFFF;
+  flex-shrink: 0;
+}
+
+.cardhorizontal p {
   font-size: 24px;
-  text-align: center;
-}
-.cardhorizontal3 p {
-  font-size: 24px;
-  text-align: center;
-}
+  line-height: 1.4;
+  margin: 0;
+} 
 
 footer {
     font-family: "Sora";
@@ -348,3 +319,163 @@ footer img {
     min-height: 90px;
 }
 
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 10px 20px;
+    gap: 10px;
+    height: auto;
+  }
+
+  header img {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  header button {
+    width: 100%;
+    max-width: 200px;
+    font-size: 18px;
+  }
+
+  .primeira {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .primeira-texto h1,
+  .quemsomos h2,
+  .beneficios h2,
+  .comofunciona h2 {
+    font-size: 32px;
+  }
+
+  .opcao1 h3,
+  .opcao2 h3 {
+    font-size: 28px;
+  }
+
+  .opcao2 h4 {
+    font-size: 24px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .primeira-texto p,
+  .card p,
+  .opcao2 p,
+  .cardhorizontal p {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .primeira-texto button {
+    width: 100%;
+    max-width: 250px;
+    font-size: 18px;
+  }
+
+  .primeira-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .quemsomos {
+    flex-direction: column;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .quemsomos p {
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .quemsomos img {
+    padding: 0;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 60px;
+  }
+
+  .quemsomos h2 {
+    position: static;
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+
+  .beneficios {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .beneficios h2 {
+    font-size: 40px;
+  }
+
+  .setinhabeneficiosesquerda,
+  .setinhabeneficiosdireita {
+    display: none;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .card img {
+    width: 140px;
+  }
+
+  .comofunciona {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .comofunciona h2 {
+    font-size: 40px;
+  }
+
+  .cardhorizontal {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .cardhorizontal svg {
+    margin-bottom: 12px;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .barrinhafooter {
+    display: none;
+  }
+
+  .footer0 img {
+    width: 80px;
+  }
+
+  .footer1 a,
+  .footer2 a,
+  .footer2 p,
+  .footer3 p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+}
