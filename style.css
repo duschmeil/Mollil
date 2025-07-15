@@ -556,6 +556,59 @@ header img {
   }
 
   .primeira-texto {
-    padding-top: 100px;
+    padding-top: 70px;
+  }
+
+    .primeira,
+  .comofunciona {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .primeira-texto {
+    padding-top: 100px; 
+  }
+
+  .comofunciona h2,
+  .beneficios h2,
+  .title h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .comofunciona-texto h2 {
+    font-size: 12px;
+    padding: 6px 16px;
+  }
+
+  .comofunciona-cards,
+  .ganhos-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .card,
+  .card-ganhos {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .card img,
+  .card-ganhos img {
+    width: 100%;
+    height: auto;
+  }
+
+  .botao-fale-conosco a {
+    font-size: 18px;
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 320px;
   }
 }
