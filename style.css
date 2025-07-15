@@ -528,4 +528,34 @@ header img {
   .conteinerPrimeira {
     padding: 12px;
   }
+
+  .comofunciona h2,
+  .beneficios h2,
+  .title h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .comofunciona-texto h2 {
+    font-size: 12px;
+    padding: 6px 16px;
+  }
+
+  .comofunciona-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .card {
+    width: 100%;
+    margin: 0;
+  }
+
+  .primeira-texto {
+    padding-top: 100px;
+  }
 }
