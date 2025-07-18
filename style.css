@@ -405,9 +405,6 @@ header img {
 }
 
 .botao-fale-conosco a {
-  display: inline-block;
-  width: 300.18px;
-  margin: 0 auto;
   padding: 14px 28px;
   font-size: 18px;
   color: rgb(0, 0, 0);
@@ -423,6 +420,12 @@ header img {
   background-color: #ffffff;
 }
 
+.botao-primeira {
+  display: flex;
+  justify-content: center;
+
+}
+
 .botao-fale-conosco a:hover {
   background-color: #000000;
   color: #ffffff;
@@ -430,10 +433,10 @@ header img {
 
 .botoes-fale-conosco {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 0px;
   margin-top: -50px;
 }
 
@@ -529,10 +532,26 @@ header img {
     font-size: 14px;
   }
 
-  .botao-fale-conosco a {
-    font-size: 12px;
-    padding: 10px 20px;
-  }
+.botao-primeira {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  padding-top: 0;
+  margin-top: -20px;
+}
+
+.botao-primeira .botao-fale-conosco {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.botao-primeira .botao-fale-conosco a {
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+}
 
   .comofunciona-texto h2,
   .beneficios h2 {
@@ -637,11 +656,30 @@ header img {
     height: auto;
   }
 
-  .botao-fale-conosco a {
-    font-size: 12px;
-    padding: 10px 20px;
-    width: 100%;
-    max-width: 320px;
+.botoes-fale-conosco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px; /* pode ajustar conforme necessário */
+}
+
+.botao-fale-conosco {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+.botao-fale-conosco a {
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+}
+
+
+  .cta-texto {
+    margin-top: 10px;
   }
   nav {
     display: none;
