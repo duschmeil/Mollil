@@ -399,9 +399,17 @@ header img {
   background: linear-gradient(to right, transparent, rgba(255,255,255,0.2), transparent);
 }
 
+.botoes-fale-conosco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  padding-top: 40px;
+}
+
 .botao-fale-conosco {
   text-align: center;
-  margin-top: 30px;
 }
 
 .botao-fale-conosco a {
@@ -436,7 +444,7 @@ header img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0px;
+  gap: 45px;
   margin-top: -50px;
 }
 
@@ -661,7 +669,7 @@ header img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: -50px; /* pode ajustar conforme necessário */
+  margin-top: 0px; /* pode ajustar conforme necessário */
 }
 
 .botao-fale-conosco {
@@ -675,6 +683,7 @@ header img {
   width: 100%;
   max-width: 320px;
   text-align: center;
+  margin-top: 20px;
 }
 
 
