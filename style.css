@@ -399,6 +399,12 @@ header img {
   background: linear-gradient(to right, transparent, rgba(255,255,255,0.2), transparent);
 }
 
+.botao-primeira .botao-fale-conosco {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .botoes-fale-conosco {
   display: flex;
   flex-direction: column;
